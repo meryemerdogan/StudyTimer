@@ -28,10 +28,21 @@ form{
     font-size: 2.5em;
 }
 #start, #stop, #finish{
-    margin-top: 20px;
     font-family: 'Roboto Mono', monospace,sans-serif;
     font-weight: bold;
     font-size: 1em;
     padding: 10px 25px ;
     border-radius: 10px;
+    border-color: hsla(250, 61%, 45%, 0.361);
+    border-width: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+#start:hover, #stop:hover, #finish:hover{
+    background-color: hsla(250, 61%, 45%, 0.361);
+    color: white;
+    transition-duration: 0.4s;
+}
+#pastTimes{
+    white-space: pre-wrap;
 }

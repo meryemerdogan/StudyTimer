@@ -13,9 +13,15 @@
 <body>
     <h1>StudyTimer</h1>
     <div id="timer-div">
-            <div id="timer">00:00:00</div>
-            <button id="pressButton">
-    </div>
-    
+            <div><p id="timer">00:00:00</p>
+            <button id="start" onclick="startTimer()">START</button>
+            <button id="stop" onclick="stopTimer()">STOP</button>
+            <button id="finish" onclick="clearTimer()">FINISH</button>
+        </div>
+    </div>  
+    <div>
+        <p id="pastTimes"></p>
+    </div>  
 </body>
+<script src="index.js"></script>
 </html>
