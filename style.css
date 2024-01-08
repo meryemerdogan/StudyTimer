@@ -19,3 +19,19 @@ form{
     font-size: 0.75em;
     color: white;
 }
+#timer-div{
+    height: 200px;
+    background-color: aliceblue;
+}
+#timer{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+#start, #stop, #finish{
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace,sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px 25px ;
+    border-radius: 10px;
+}
